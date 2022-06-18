@@ -23,6 +23,11 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
 p {
     color: rgb(97, 97, 97);
     font-size: 1.1rem;
@@ -32,7 +37,7 @@ p {
 }
 
 * {
-
+    border: 0.5px red solid; 
 }
 
 /*header navigation bar*/
@@ -85,7 +90,7 @@ body {
 }
 
 .summer {
-    width: 1700px;
+    width: 1200px;
     margin-top: 91px;
     display: flex;
     justify-items: center;
@@ -94,10 +99,38 @@ body {
 
 .hero-text {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+
+}
+
+/*rewards*/
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+.middle-center {
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
     padding-left: 135px;
 }
 
+.inner {
+    padding: 0px 10px;
+}
+
+.inner p {
+    line-height: 2.5em;
+}
+
+.middle-img img {
+    height: 400px;
+}
