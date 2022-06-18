@@ -21,18 +21,45 @@ button:hover {
     border: 1px red solid;
 }
 
+/*header navigation bar*/
+
 header {
+    height: 100px;
     display: inline-flex;
     align-items: center;
-    justify-items: space-between;
-    max-height: 100px;
-    
+    justify-items: center;
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 1px 3px grey;
 }
 
-logo {
-    max-height: 50px;
-    max-width: 50px;
+.logo {
+    max-height: 52px;
+    margin-left: 31px;
+    margin-top: 1px;
 }
+
+
+.menu {
+    display: inline-flex;
+    justify-items: center;
+    padding-left: 27px;
+    padding-right: 10px;
+}
+
+.menu h4 {
+    padding: 15px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 1px ;
+}
+
+/*body section*/
 
 body {
     background-color: whitesmoke;
