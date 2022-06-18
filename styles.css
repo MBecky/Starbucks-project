@@ -37,7 +37,7 @@ p {
 }
 
 * {
-    border: 0.5px red solid; 
+
 }
 
 /*header navigation bar*/
@@ -106,7 +106,7 @@ body {
 
 }
 
-/*rewards*/
+/*rewards and delivery middle section*/
 
 .middle {
     display: flex;
@@ -134,3 +134,32 @@ body {
 .middle-img img {
     height: 400px;
 }
+
+/*trio of cards section*/
+
+.trio {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 60px;
+}
+
+.trio img {
+    width: 420px;
+}
+
+.card {    
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+    padding-bottom: 15px;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.card H3, p, Button {
+    margin-left: 10px;
+}
+
+.card p {
+    margin-top: -20px;
+}
+
