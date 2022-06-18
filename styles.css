@@ -21,11 +21,17 @@ button:hover {
 h2 {
     font-size: 2.2em;
     font-weight: 500;
+    cursor: default;
 }
 
 h3 {
     font-weight: 800;
     font-size: 1.5em;
+    cursor: default;
+}
+
+h4 {
+    cursor: default;
 }
 
 p {
@@ -34,10 +40,7 @@ p {
     letter-spacing: 0.2px;
     padding: 5px 0px;
     line-height: 1.5em;
-}
-
-* {
-
+    cursor: default;
 }
 
 /*header navigation bar*/
@@ -163,3 +166,45 @@ body {
     margin-top: -20px;
 }
 
+/*footer*/
+
+footer {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -1px 3px grey;
+}
+
+.footmenu {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.footmenu h2 {
+    margin-left: 32px;
+}
+
+footer h2:hover, h4:hover {
+    color: #00643C;
+}
+
+.social img {
+    max-height: 52px;
+    margin-left: 32px;
+    margin-top: 1px;
+}
+
+.circle:hover {
+    transform: rotate(10deg);
+}
+
+.legal {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.legal h4 {
+    margin-left: 32px;
+}
