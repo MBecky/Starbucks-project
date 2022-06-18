@@ -1,8 +1,8 @@
 html {
 font-family: Open-Sans,sans-serif;
-font-size: 16px;
+font-size: 13px;
 box-sizing: border-box;
-color: #1f1f1f;
+color: #2c2c2c;
 }
 
 button {
@@ -10,15 +10,29 @@ button {
     border-radius: 2em;
     background-color: whitesmoke;
     color: #00643C;
-    padding: 0.5em 0.8em;
+    padding: 0.6em 0.9em;
+    font-weight: 700;
 }
 
 button:hover {
-    background-color: rgba(0, 100, 60, 0.1);
+    background-color: rgba(0, 100, 60, 0.2);
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+p {
+    color: rgb(97, 97, 97);
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding: 5px 0px;
+    line-height: 1.5em;
 }
 
 * {
-    border: 1px red solid;
+
 }
 
 /*header navigation bar*/
@@ -40,10 +54,9 @@ header {
 
 .logo {
     max-height: 52px;
-    margin-left: 31px;
+    margin-left: 105px;
     margin-top: 1px;
 }
-
 
 .menu {
     display: inline-flex;
@@ -54,9 +67,9 @@ header {
 
 .menu h4 {
     padding: 15px;
-    font-size: 0.72rem;
+    font-size: 0.9rem;
     font-weight: 800;
-    letter-spacing: 1px ;
+    letter-spacing: 1.5px ;
 }
 
 /*body section*/
@@ -64,3 +77,27 @@ header {
 body {
     background-color: whitesmoke;
 }
+
+.hero {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.summer {
+    width: 1700px;
+    margin-top: 91px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.hero-text {
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 135px;
+}
+
